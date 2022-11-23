@@ -92,7 +92,7 @@ img{
 }
 .gal{
     display: flex;
-    -ms-flex-direction: row;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     
