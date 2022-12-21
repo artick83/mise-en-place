@@ -1,0 +1,73 @@
+nav{
+    text-align: center;
+}
+.logo{
+    text-align: center;
+    .logo1{
+        width: 200px;
+        border-radius: 50%;
+        border: double rgb(18, 167, 236);
+        opacity: 5; 
+        text-align: center; 
+      }
+}
+.menu{
+    background-color: rgb(88, 15, 66);
+    list-style-type: none;
+    padding: 0;
+    width: 90%;
+    margin: 20px auto;
+
+}
+.menu li{
+    display: inline-block;
+    position: relative;
+    font-size: 1rem ;
+    text-align: center;
+
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+
+}
+.menu li a:hover{
+    background: rgb(238, 6, 238);
+}
+input[type=checkbox] {
+    display: none;
+}
+.hamburger {
+
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+  @media (max-width: 600px) {
+    
+    nav{
+        text-align: right;
+    }
+    .menu {
+        display: none;
+        position: relative;
+        background-color: rgb(88, 15, 66);
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 5px 0;
+    }
+    
+        input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+    .hamburger {
+        display: block;
+        padding-right: 5px;
+        
+    }
+}
+
+

@@ -1,0 +1,80 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 60px;
+    text-align: center;
+}
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.sub{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .textoJustificado{
+    text-align: justify;
+  }
+.alineaContenido{
+    justify-content: center;
+  }
+  .form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .form input{
+        width: 90%;
+        height: 30px;
+        margin: .5rem
+        button{
+            padding: .5em 1em;
+            border:none;
+            background: rgb(100,200,255);
+            cursor: pointer;
+          }
+      }
+   }
+  
+  
+  
+  
+  @media (max-width: 576px) {
+    body {
+      background-color: rgb(189, 184, 194);
+    }
+    .container{
+        background-color: aquamarine;
+    }
+}
+.narda img{
+    
+    opacity: 5;
+   border: none;
+   width: 500px;
+   height: 400px;
+   
+}
+.narda{
+    display: flex;
+    justify-content: center;
+    
+}
